@@ -74,14 +74,14 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-        //getPairdDevices();
-        startDescovery();
+        //getPairedDevices();
+        startDiscovery();
 
 
 
     }
 
-    private void startDescovery() {
+    private void startDiscovery() {
         mBluetoothAdapter.cancelDiscovery();
         mBluetoothAdapter.startDiscovery();
     }
@@ -99,7 +99,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    private void getPairdDevices() {
+    private void getPairedDevices() {
 
         pairedDevices = mBluetoothAdapter.getBondedDevices();
         // If there are paired devices

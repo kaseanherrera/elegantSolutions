@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Wicked.iml" filepath="$PROJECT_DIR$/Wicked.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elegantSolutions.iml" filepath="$PROJECT_DIR$/elegantSolutions.iml" />
     </modules>
   </component>
 </project>
+
